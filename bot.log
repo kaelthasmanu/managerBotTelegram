@@ -651,3 +651,64 @@ AttributeError: 'list' object has no attribute 'len'
 2023-02-27 12:44:48,836 - pyrogram.connection.connection - INFO - Connecting...,
 2023-02-27 12:44:49,011 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
 2023-02-27 12:44:49,023 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:44:49,731 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:44:49,731 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:44:49,731 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:44:49,732 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:44:49,739 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:44:50,107 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:44:54,330 - pyrogram.dispatcher - ERROR - Telegram says: [400 USERNAME_INVALID] - The username is invalid (caused by "contacts.ResolveUsername"),
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: asd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 71, in resolve_peer
+    int(peer_id)
+ValueError: invalid literal for int() with base 10: 'asd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 74, in resolve_peer
+    return await self.storage.get_peer_by_username(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\storage\sqlite_storage.py", line 154, in get_peer_by_username
+    raise KeyError(f"Username not found: {username}")
+KeyError: 'Username not found: asd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 41, in banUser
+    await app.ban_chat_member(i, userToBan[1])
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\chats\ban_chat_member.py", line 75, in ban_chat_member
+    user_peer = await self.resolve_peer(user_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 76, in resolve_peer
+    await self.invoke(
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.UsernameInvalid: Telegram says: [400 USERNAME_INVALID] - The username is invalid (caused by "contacts.ResolveUsername")
+2023-02-27 12:49:07,956 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:49:08,010 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:49:08,010 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:49:08,010 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:49:08,010 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:49:08,010 - pyrogram.session.session - INFO - Session stopped,

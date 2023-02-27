@@ -80,7 +80,15 @@ def checkExist(idTelegram):#Testing that function not working
     print(ResultSet)
     print(ResultSet[0][0])
 
-checkExist('123231312')
+def isBan(IDTelegram):
+    query = db.select(UsersBans)
+    query = query.where(IDTelegram == IDTelegram)
+    result = connection.execute(query)
+    for row in result:
+        print(row) 
+    
+#isBan("123231312")
+#checkExist('123231312')
 #stmt = select(Users).where(Users.Name.in_(["Manuel", "Alberto"]))
 #for user in session.scalars(stmt):
     #print(user)
