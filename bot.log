@@ -274,3 +274,380 @@ TypeError: 'int' object is not subscriptable
 2023-02-26 23:53:12,754 - pyrogram.connection.connection - INFO - Disconnected,
 2023-02-26 23:53:12,754 - pyrogram.session.session - INFO - NetworkTask stopped,
 2023-02-26 23:53:12,754 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:06:35,313 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:06:35,514 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:06:35,516 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:06:36,568 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:06:36,568 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.100,
+2023-02-27 12:06:36,568 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:06:36,568 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:06:36,573 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:06:36,932 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:07:25,269 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:07:25,390 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:07:25,390 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:07:25,435 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:07:25,435 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:07:25,435 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:07:40,736 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:07:40,898 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:07:40,899 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:07:41,589 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:07:41,590 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.100,
+2023-02-27 12:07:41,590 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:07:41,590 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:07:41,595 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:07:41,942 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:09:13,501 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:09:13,534 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:09:13,534 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:09:13,534 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:09:13,535 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:09:13,535 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:09:17,353 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:09:17,512 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:09:17,525 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:09:18,211 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:09:18,211 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.100,
+2023-02-27 12:09:18,211 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:09:18,212 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:09:18,216 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:09:18,877 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:09:45,377 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:09:45,499 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:09:45,499 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:09:45,499 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:09:45,499 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:09:45,500 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:09:49,851 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:09:50,017 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:09:50,019 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:09:50,744 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:09:50,744 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.100,
+2023-02-27 12:09:50,744 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:09:50,744 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:09:50,749 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:09:51,125 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:11:10,888 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:11:10,928 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:11:10,929 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:11:10,929 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:11:10,929 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:11:10,929 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:11:42,076 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:11:42,237 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:11:42,255 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:11:42,948 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:11:42,949 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.100,
+2023-02-27 12:11:42,949 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:11:42,949 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:11:42,954 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:11:43,313 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:12:03,437 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:12:03,474 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:12:03,475 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:12:03,475 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:12:03,475 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:12:03,475 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:14:41,685 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:14:41,909 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:14:41,973 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:14:42,990 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:14:42,990 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:14:42,990 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:14:42,990 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:14:42,998 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:14:43,415 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:15:28,462 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:15:28,491 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:15:28,491 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:15:28,492 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:15:28,492 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:15:28,492 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:15:32,470 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:15:32,632 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:15:32,633 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:15:33,345 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:15:33,345 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:15:33,346 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:15:33,346 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:15:33,351 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:15:33,734 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:15:33,937 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() < 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:16:32,401 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:16:32,433 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:16:32,433 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:16:32,433 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:16:32,433 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:16:32,434 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:16:36,280 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:16:36,442 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:16:36,457 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:16:37,151 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:16:37,152 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:16:37,152 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:16:37,152 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:16:37,159 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:16:37,526 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:16:40,604 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() < 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:17:09,952 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:17:10,019 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:17:10,020 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:17:10,020 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:17:10,020 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:17:10,020 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:17:13,805 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:17:13,974 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:17:13,976 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:17:14,741 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:17:14,741 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:17:14,741 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:17:14,741 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:17:14,746 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:17:15,148 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:17:19,223 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() < 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:18:15,939 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:18:15,964 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:18:15,964 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:18:15,965 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:18:15,965 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:18:15,965 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:18:20,258 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:18:20,418 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:18:20,419 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:18:22,073 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:18:22,073 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:18:22,074 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:18:22,074 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:18:22,078 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:18:22,485 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:18:26,903 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() < 3 and userToBan.len() > 1:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:19:09,535 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:19:09,566 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:19:09,566 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:19:09,567 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:19:09,567 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:19:09,567 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:19:13,379 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:19:13,547 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:19:13,548 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:19:14,267 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:19:14,267 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:19:14,267 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:19:14,267 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:19:14,274 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:19:14,639 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:19:15,790 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() < 3 and userToBan.len() > 1:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:19:32,097 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:19:32,133 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:19:32,133 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:19:32,134 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:19:32,134 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:19:32,134 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:19:35,981 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:19:36,148 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:19:36,155 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:19:36,835 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:19:36,835 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:19:36,835 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:19:36,835 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:19:36,840 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:19:37,233 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:19:37,234 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() > 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:19:59,449 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:19:59,487 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:19:59,487 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:19:59,488 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:19:59,488 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:19:59,488 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:20:17,639 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:20:17,806 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:20:17,828 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:20:18,481 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:20:18,481 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:20:18,481 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:20:18,481 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:20:18,489 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:20:18,851 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:20:27,161 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() > 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:20:48,030 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:20:48,110 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:20:48,110 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:20:48,111 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:20:48,111 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:20:48,111 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:20:52,211 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:20:52,372 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:20:52,373 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:20:53,094 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:20:53,094 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:20:53,094 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:20:53,094 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:20:53,099 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:20:53,535 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:20:54,313 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 38, in banUser
+    if userToBan.len() > 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:21:16,618 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:21:16,706 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:21:16,706 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:21:16,706 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:21:16,706 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:21:16,707 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:21:20,908 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:21:21,072 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:21:21,073 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:21:21,770 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:21:21,770 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:21:21,770 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:21:21,770 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:21:21,775 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:21:22,140 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:21:22,187 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 39, in banUser
+    if userToBan.len() > 3:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:21:32,847 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:21:32,877 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:21:32,877 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:21:32,878 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:21:32,878 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:21:32,878 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:21:36,509 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:21:36,667 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:21:36,668 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:21:37,416 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:21:37,416 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:21:37,416 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:21:37,416 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:21:37,421 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:21:37,799 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:21:48,938 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 39, in banUser
+    if userToBan.len() > 1:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:22:17,215 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:22:17,253 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:22:17,254 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:22:17,254 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:22:17,254 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:22:17,254 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:22:21,422 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:22:21,593 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:22:21,594 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:22:22,421 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:22:22,421 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:22:22,421 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:22:22,421 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:22:22,426 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:22:22,850 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:22:22,974 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 39, in banUser
+    print(userToBan.len())
+          ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:22:30,575 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 39, in banUser
+    print(userToBan.len())
+          ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:23:32,084 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:23:32,118 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:23:32,118 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:23:32,119 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:23:32,119 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:23:32,119 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:23:36,604 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:23:36,807 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:23:36,809 - pyrogram.session.session - INFO - NetworkTask started,
+2023-02-27 12:23:37,594 - pyrogram.session.session - INFO - Session initialized: Layer 152,
+2023-02-27 12:23:37,594 - pyrogram.session.session - INFO - Device: CPython 3.11.0 - Pyrogram 2.0.99,
+2023-02-27 12:23:37,594 - pyrogram.session.session - INFO - System: Windows 10 (en),
+2023-02-27 12:23:37,594 - pyrogram.session.session - INFO - Session started,
+2023-02-27 12:23:37,599 - pyrogram.session.session - INFO - PingTask started,
+2023-02-27 12:23:37,968 - pyrogram.dispatcher - INFO - Started 8 HandlerTasks,
+2023-02-27 12:23:41,677 - pyrogram.dispatcher - ERROR - 'list' object has no attribute 'len',
+Traceback (most recent call last):
+  File "C:\Users\Manuel\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 240, in handler_worker
+    await handler.callback(self.client, *args)
+  File "C:\Users\Manuel\Desktop\managerBotTelegram\main.py", line 40, in banUser
+    if userToBan.len() > 1:
+       ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'len'
+2023-02-27 12:44:44,984 - root - INFO - Stop signal received (SIGINT). Exiting...,
+2023-02-27 12:44:45,018 - pyrogram.dispatcher - INFO - Stopped 8 HandlerTasks,
+2023-02-27 12:44:45,018 - pyrogram.session.session - INFO - PingTask stopped,
+2023-02-27 12:44:45,019 - pyrogram.connection.connection - INFO - Disconnected,
+2023-02-27 12:44:45,019 - pyrogram.session.session - INFO - NetworkTask stopped,
+2023-02-27 12:44:45,019 - pyrogram.session.session - INFO - Session stopped,
+2023-02-27 12:44:48,836 - pyrogram.connection.connection - INFO - Connecting...,
+2023-02-27 12:44:49,011 - pyrogram.connection.connection - INFO - Connected! Production DC1 - IPv4,
+2023-02-27 12:44:49,023 - pyrogram.session.session - INFO - NetworkTask started,

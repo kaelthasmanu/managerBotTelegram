@@ -1,4 +1,5 @@
 from sqlalchemy import *
+import sqlalchemy as db
 from sqlalchemy.orm import Session
 from typing import List
 from typing import Optional
@@ -25,13 +26,39 @@ class Users(Base):
          return f"Users(idTelegram={self.idTelegram!r}, Name={self.Name!r},Username={self.Username!r},Telephone={self.Telephone!r}, LastName={self.LastName!r})"
 
 
+class UsersAccepted(Base):
+     __tablename__ = "UsersAccepted"
+     IDTelegram: Mapped[str] = mapped_column(primary_key=True)
+     Username: Mapped[str] = mapped_column(String(200))
+     Accepted: Mapped[Boolean] = mapped_column(Boolean)
+     
+     def __repr__(self) -> str:
+         return f"Users(IDTelegram={self.IDTelegram!r},Username={self.Username!r},Accepted={self.Accepted!r})"
+
+
+class UsersBans(Base):
+     __tablename__ = "UsersBans"
+     IDTelegram: Mapped[str] = mapped_column(primary_key=True)
+     Username: Mapped[str] = mapped_column(String(200))
+     Bans: Mapped[Boolean] = mapped_column(Boolean)
+     
+     def __repr__(self) -> str:
+         return f"Users(IDTelegram={self.IDTelegram!r},Username={self.Username!r},Bams={self.Bans!r})"
+
+
+class UniqueNum(Base):
+     __tablename__ = "UniqueNum"
+     UniqueNum: Mapped[str] = mapped_column(primary_key=True)
+     Used: Mapped[Boolean] = mapped_column(Boolean)
+     
+     def __repr__(self) -> str:
+         return f"Users(IDTelegram={self.UniqueNum!r},Used={self.Used!r})"
+
 
 # Create database engine to postgreSQL
-engine = create_engine("postgresql+psycopg2://admin:4dm1n*96@152.206.177.185/tgbot",echo=True)
+engine = create_engine("postgresql+psycopg2://admin:4dm1n*96@152.206.177.185/tgbot")
+connection = engine.connect()
 session = Session(engine)
-#stmt = select(Users).where(Users.Name.in_(["spongebob", "sandy"]))
-#for user in session.scalars(stmt):
-    #print(user)
 
 def createUser():
     with Session(engine) as session:
@@ -45,6 +72,15 @@ def createUser():
          session.add(Manuel)
          session.commit()
 
-stmt = select(Users).where(Users.Name.in_(["Manuel", "Alberto"]))
-for user in session.scalars(stmt):
-    print(user)
+def checkExist(idTelegram):#Testing that function not working
+    query = db.select(
+    db.select(Users).filter_by(idTelegram=idTelegram).exists())
+    ResultProxy = connection.execute(query)
+    ResultSet = ResultProxy.fetchall()
+    print(ResultSet)
+    print(ResultSet[0][0])
+
+checkExist('123231312')
+#stmt = select(Users).where(Users.Name.in_(["Manuel", "Alberto"]))
+#for user in session.scalars(stmt):
+    #print(user)
