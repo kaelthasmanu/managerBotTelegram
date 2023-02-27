@@ -16,15 +16,26 @@ async def botWelcome(client, message):
     chat_id = message.chat.id
     user_username = message.from_user.username
     user_id = message.from_user.id
+    vars.users_new.append(user_id)
     await app.send_message(chat_id, "Bienvenido a este bot de prueba")
+
 
 @app.on_message(filters.chat(vars.target_chats) & filters.new_chat_members)
 async def welcome(client, message):
+    print("Welcome new memebers")
     new_members = [u.mention for u in message.new_chat_members]
     # Build the welcome message by using an emoji and the list we built above
     text = vars.message_Welcome.format(emoji.SPARKLES, ", ".join(new_members))
     # Send the welcome message, without the web page preview
     await message.reply_text(text, disable_web_page_preview=True)
+
+@app.on_message(filters.chat(vars.target_chats))
+async def numUnico(client, message):
+    chat_id = message.chat.id
+    user_username = message.from_user.username
+    user_id = message.from_user.id
+
+
 
 @app.on_message(filters.command("ban"))
 async def banUser(client, message):
