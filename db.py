@@ -9,6 +9,7 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
+import vars
 
 
 class Base(DeclarativeBase):
@@ -56,7 +57,7 @@ class UniqueNum(Base):
 
 
 # Create database engine to postgreSQL
-engine = create_engine("postgresql+psycopg2://admin:4dm1n*96@152.206.177.185/tgbot")
+engine = create_engine("url_database")
 connection = engine.connect()
 session = Session(engine)
 
@@ -64,9 +65,9 @@ def createUser():
     with Session(engine) as session:
          Manuel = Users(
              idTelegram="1234567",
-             Name="Alberto",
-             LastName="Reyes",
-             Telephone="+5353190783",
+             Name="Manuel",
+             LastName="Alberto",
+             Telephone="+6566",
              Username="@manuel"
          )
          session.add(Manuel)

@@ -1,5 +1,5 @@
 python-dotenv
 SQLAlchemy==2.0.4
 cython
-pyrogram==2.0.99
+pyrogram==2.0.106
 psycopg2

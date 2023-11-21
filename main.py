@@ -2,6 +2,8 @@ import logging
 from pyrogram import Client, filters, emoji
 import vars
 
+print(vars.api_id)
+
 logging.basicConfig(filename='bot.log',level = logging.INFO , format="%(asctime)s - %(name)s - %(levelname)s - %(message)s,")
 logger = logging.getLogger()
 
@@ -56,6 +58,5 @@ app.on_message((filters.chat(vars.target_chats) | filters.private) & filters.com
 async def addUser(client,message):
     print("Hello World")
     userToAdd = message.text.split()
-
 
 app.run()
